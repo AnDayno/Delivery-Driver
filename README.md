@@ -2,10 +2,6 @@
 
 A **relaxing** top-down 2D delivery game built in Unity, following the [Complete C# Unity Game Developer 2D](https://www.udemy.com/course/unitycourse/) tutorial by GameDev.tv.
 
-<p align="center">
-  <img src="Screenshots/gameplay.png" alt="Gameplay screenshot" width="600"/>
-</p>
-
 ## 🎮 About
 
 In **Delivery Driver**, you hop behind the wheel of a little delivery car and cruise around town collecting and dropping off packages. This project walks through:

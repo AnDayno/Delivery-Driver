@@ -4,18 +4,22 @@ using UnityEngine;
 
 public class Delivery : MonoBehaviour
 {
+    bool hasPackage;
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Customer"))
+        if (collision.collider.CompareTag("Customer") && hasPackage)
         {
             Debug.Log("You delivered the package.");
+            hasPackage = false;
         }
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Package"))
+        if (collision.CompareTag("Package") )
         {
             Debug.Log("You Picked up the package.");
+            hasPackage = true;
         }
     }
 }
+ 

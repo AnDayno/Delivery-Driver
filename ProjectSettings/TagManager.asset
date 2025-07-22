@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Package
   - Customer
+  - Obstacle
+  - BoostPill
   layers:
   - Default
   - TransparentFX
@@ -40,6 +42,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Road
+    uniqueID: 3232219641
+    locked: 0
+  - name: Items
+    uniqueID: 2632566299
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

@@ -21,5 +21,5 @@ In Delivery Driver, you hop behind the wheel of a little delivery car and cruise
 1. Clone this repository
 
    ```bash
-   git clone https://github.com/your-username/2d-package-delivery.git
+   git clone https://github.com/AnDayno/Delivery-Driver.git
    cd 2d-package-delivery
